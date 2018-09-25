@@ -54,6 +54,7 @@ abstract transaction ShipmentTransaction {
  */
 transaction TemperatureReading extends ShipmentTransaction {
   o Double centigrade
+  o Double humidity
 }
 
 /**
